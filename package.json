@@ -1,0 +1,25 @@
+{
+  "name": "scello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FemiFatokun03/scello.git"
+  },
+  "author": "Femi Fatokun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FemiFatokun03/scello/issues"
+  },
+  "homepage": "https://github.com/FemiFatokun03/scello#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.21.3",
+    "sqlite3": "^5.0.8"
+  }
+}
