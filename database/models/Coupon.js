@@ -21,7 +21,8 @@ Coupon.init({
     },
     min_items : {
         type : DataTypes.FLOAT,
-        allowNull : false
+        allowNull : false,
+        defaultValue : 1
     },
     perc_value : {
         type : DataTypes.FLOAT,
@@ -30,6 +31,14 @@ Coupon.init({
     fixed_value : {
         type : DataTypes.FLOAT,
         defaultValue : 0
+    },
+    use_max : {
+        type : DataTypes.BOOLEAN,
+        defaultValue : false
+    },
+    use_min : {
+        type : DataTypes.BOOLEAN,
+        defaultValue : false
     }
 }, {sequelize})
 

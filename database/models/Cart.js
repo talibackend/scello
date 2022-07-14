@@ -16,7 +16,7 @@ Cart.init({
     },
     coupon : {
         type : DataTypes.STRING,
-        allowNull : false
+        allowNull : true
     }
 }, {sequelize});
 
