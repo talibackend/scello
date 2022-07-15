@@ -10,5 +10,9 @@ module.exports = [
     {
         name: "Glasses",
         price: 150.89
+    },
+    {
+        name: "Macbook Laptop",
+        price : 348.44
     }
 ];
